@@ -1,0 +1,5 @@
+package com.practicas.app.service;
+
+public class UsuarioService {
+
+}

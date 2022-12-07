@@ -1,0 +1,21 @@
+package com.practicas.app.configuration;
+
+public class Usuario {
+	private String mail;
+	
+	private String password;
+	
+	
+	public String getUsuario() {
+		return mail;
+	}
+	public void setUsuario(String mail) {
+		this.mail = mail;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setContraseña(String password) {
+		this.password = password;
+	}
+}

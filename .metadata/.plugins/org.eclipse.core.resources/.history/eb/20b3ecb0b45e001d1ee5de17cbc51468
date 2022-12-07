@@ -1,0 +1,5 @@
+package com.practicas.app.chat.src.main.java.com.chat.security.model.copy;
+
+public enum AuthorityName {
+    ROLE_USER, ROLE_ADMIN
+}

@@ -1,0 +1,29 @@
+package com.practicas.app.configuration;
+
+public class Usuario {
+	private String mail;
+	
+	private String password;
+	
+	
+	public String getUsuario() {
+		return mail;
+	}
+	public void setUsuario(String mail) {
+		this.mail = mail;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setContraseña(String password) {
+		this.password = password;
+	}
+	public Object getEnabled() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public byte getRol() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

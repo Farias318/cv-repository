@@ -1,0 +1,16 @@
+package com.practicas.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+import com.practicas.app.repository.GestorUser;
+
+@Service
+public class UsuarioService {
+
+	@Autowired
+	@Qualifier("gestorUsuario")
+	private GestorUser gestorUser;
+	
+}

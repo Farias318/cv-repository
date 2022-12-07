@@ -1,0 +1,6 @@
+package security.entity;
+
+
+public class Rol {
+	ROLE_ADMIN ROLE USER;
+}

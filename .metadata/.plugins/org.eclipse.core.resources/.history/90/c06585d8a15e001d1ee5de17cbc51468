@@ -1,0 +1,5 @@
+package com.practicas.app.configuration;
+
+public class Usuario {
+
+}
